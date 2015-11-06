@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68069FC81AF33C2F000351AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FC71AF33C2F000351AD /* AppDelegate.m */; };
+		68069FCA1AF33C2F000351AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FC91AF33C2F000351AD /* main.m */; };
+		68069FCC1AF33C2F000351AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68069FCB1AF33C2F000351AD /* Images.xcassets */; };
+		68069FCF1AF33C2F000351AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68069FCD1AF33C2F000351AD /* MainMenu.xib */; };
+		68069FDB1AF33C2F000351AD /* CocoaToolBarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FDA1AF33C2F000351AD /* CocoaToolBarsTests.m */; };
+		68069FE71AF3F0E1000351AD /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FE51AF3F0E1000351AD /* EmployeeViewController.m */; };
+		68069FE81AF3F0E1000351AD /* EmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68069FE61AF3F0E1000351AD /* EmployeeViewController.xib */; };
+		68069FEC1AF3F0F2000351AD /* DepartmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FEA1AF3F0F2000351AD /* DepartmentViewController.m */; };
+		68069FED1AF3F0F2000351AD /* DepartmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68069FEB1AF3F0F2000351AD /* DepartmentViewController.xib */; };
+		68069FF11AF3F103000351AD /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68069FEF1AF3F103000351AD /* AccountViewController.m */; };
+		68069FF21AF3F103000351AD /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68069FF01AF3F103000351AD /* AccountViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68069FD51AF33C2F000351AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68069FB91AF33C2F000351AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68069FC01AF33C2F000351AD;
+			remoteInfo = CocoaToolBars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68069FC11AF33C2F000351AD /* CocoaToolBars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaToolBars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68069FC51AF33C2F000351AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68069FC61AF33C2F000351AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68069FC71AF33C2F000351AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68069FC91AF33C2F000351AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68069FCB1AF33C2F000351AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68069FCE1AF33C2F000351AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68069FD41AF33C2F000351AD /* CocoaToolBarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaToolBarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68069FD91AF33C2F000351AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68069FDA1AF33C2F000351AD /* CocoaToolBarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaToolBarsTests.m; sourceTree = "<group>"; };
+		68069FE41AF3F0E1000351AD /* EmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		68069FE51AF3F0E1000351AD /* EmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		68069FE61AF3F0E1000351AD /* EmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeViewController.xib; sourceTree = "<group>"; };
+		68069FE91AF3F0F2000351AD /* DepartmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentViewController.h; sourceTree = "<group>"; };
+		68069FEA1AF3F0F2000351AD /* DepartmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentViewController.m; sourceTree = "<group>"; };
+		68069FEB1AF3F0F2000351AD /* DepartmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepartmentViewController.xib; sourceTree = "<group>"; };
+		68069FEE1AF3F103000351AD /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		68069FEF1AF3F103000351AD /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		68069FF01AF3F103000351AD /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68069FBE1AF33C2F000351AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68069FD11AF33C2F000351AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68069FB81AF33C2F000351AD = {
+			isa = PBXGroup;
+			children = (
+				68069FC31AF33C2F000351AD /* CocoaToolBars */,
+				68069FD71AF33C2F000351AD /* CocoaToolBarsTests */,
+				68069FC21AF33C2F000351AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68069FC21AF33C2F000351AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68069FC11AF33C2F000351AD /* CocoaToolBars.app */,
+				68069FD41AF33C2F000351AD /* CocoaToolBarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68069FC31AF33C2F000351AD /* CocoaToolBars */ = {
+			isa = PBXGroup;
+			children = (
+				68069FC61AF33C2F000351AD /* AppDelegate.h */,
+				68069FC71AF33C2F000351AD /* AppDelegate.m */,
+				68069FCB1AF33C2F000351AD /* Images.xcassets */,
+				68069FCD1AF33C2F000351AD /* MainMenu.xib */,
+				68069FC41AF33C2F000351AD /* Supporting Files */,
+				68069FE91AF3F0F2000351AD /* DepartmentViewController.h */,
+				68069FEA1AF3F0F2000351AD /* DepartmentViewController.m */,
+				68069FEB1AF3F0F2000351AD /* DepartmentViewController.xib */,
+				68069FEE1AF3F103000351AD /* AccountViewController.h */,
+				68069FEF1AF3F103000351AD /* AccountViewController.m */,
+				68069FF01AF3F103000351AD /* AccountViewController.xib */,
+				68069FE41AF3F0E1000351AD /* EmployeeViewController.h */,
+				68069FE51AF3F0E1000351AD /* EmployeeViewController.m */,
+				68069FE61AF3F0E1000351AD /* EmployeeViewController.xib */,
+			);
+			path = CocoaToolBars;
+			sourceTree = "<group>";
+		};
+		68069FC41AF33C2F000351AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68069FC51AF33C2F000351AD /* Info.plist */,
+				68069FC91AF33C2F000351AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68069FD71AF33C2F000351AD /* CocoaToolBarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				68069FDA1AF33C2F000351AD /* CocoaToolBarsTests.m */,
+				68069FD81AF33C2F000351AD /* Supporting Files */,
+			);
+			path = CocoaToolBarsTests;
+			sourceTree = "<group>";
+		};
+		68069FD81AF33C2F000351AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68069FD91AF33C2F000351AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68069FC01AF33C2F000351AD /* CocoaToolBars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68069FDE1AF33C2F000351AD /* Build configuration list for PBXNativeTarget "CocoaToolBars" */;
+			buildPhases = (
+				68069FBD1AF33C2F000351AD /* Sources */,
+				68069FBE1AF33C2F000351AD /* Frameworks */,
+				68069FBF1AF33C2F000351AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaToolBars;
+			productName = CocoaToolBars;
+			productReference = 68069FC11AF33C2F000351AD /* CocoaToolBars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68069FD31AF33C2F000351AD /* CocoaToolBarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68069FE11AF33C2F000351AD /* Build configuration list for PBXNativeTarget "CocoaToolBarsTests" */;
+			buildPhases = (
+				68069FD01AF33C2F000351AD /* Sources */,
+				68069FD11AF33C2F000351AD /* Frameworks */,
+				68069FD21AF33C2F000351AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68069FD61AF33C2F000351AD /* PBXTargetDependency */,
+			);
+			name = CocoaToolBarsTests;
+			productName = CocoaToolBarsTests;
+			productReference = 68069FD41AF33C2F000351AD /* CocoaToolBarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68069FB91AF33C2F000351AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Appsnschmidt;
+				TargetAttributes = {
+					68069FC01AF33C2F000351AD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					68069FD31AF33C2F000351AD = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 68069FC01AF33C2F000351AD;
+					};
+				};
+			};
+			buildConfigurationList = 68069FBC1AF33C2F000351AD /* Build configuration list for PBXProject "CocoaToolBars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68069FB81AF33C2F000351AD;
+			productRefGroup = 68069FC21AF33C2F000351AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68069FC01AF33C2F000351AD /* CocoaToolBars */,
+				68069FD31AF33C2F000351AD /* CocoaToolBarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68069FBF1AF33C2F000351AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68069FED1AF3F0F2000351AD /* DepartmentViewController.xib in Resources */,
+				68069FCC1AF33C2F000351AD /* Images.xcassets in Resources */,
+				68069FCF1AF33C2F000351AD /* MainMenu.xib in Resources */,
+				68069FE81AF3F0E1000351AD /* EmployeeViewController.xib in Resources */,
+				68069FF21AF3F103000351AD /* AccountViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68069FD21AF33C2F000351AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68069FBD1AF33C2F000351AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68069FEC1AF3F0F2000351AD /* DepartmentViewController.m in Sources */,
+				68069FCA1AF33C2F000351AD /* main.m in Sources */,
+				68069FC81AF33C2F000351AD /* AppDelegate.m in Sources */,
+				68069FE71AF3F0E1000351AD /* EmployeeViewController.m in Sources */,
+				68069FF11AF3F103000351AD /* AccountViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68069FD01AF33C2F000351AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68069FDB1AF33C2F000351AD /* CocoaToolBarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68069FD61AF33C2F000351AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68069FC01AF33C2F000351AD /* CocoaToolBars */;
+			targetProxy = 68069FD51AF33C2F000351AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68069FCD1AF33C2F000351AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68069FCE1AF33C2F000351AD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68069FDC1AF33C2F000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68069FDD1AF33C2F000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68069FDF1AF33C2F000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaToolBars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68069FE01AF33C2F000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaToolBars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68069FE21AF33C2F000351AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaToolBarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaToolBars.app/Contents/MacOS/CocoaToolBars";
+			};
+			name = Debug;
+		};
+		68069FE31AF33C2F000351AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaToolBarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaToolBars.app/Contents/MacOS/CocoaToolBars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68069FBC1AF33C2F000351AD /* Build configuration list for PBXProject "CocoaToolBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68069FDC1AF33C2F000351AD /* Debug */,
+				68069FDD1AF33C2F000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68069FDE1AF33C2F000351AD /* Build configuration list for PBXNativeTarget "CocoaToolBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68069FDF1AF33C2F000351AD /* Debug */,
+				68069FE01AF33C2F000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68069FE11AF33C2F000351AD /* Build configuration list for PBXNativeTarget "CocoaToolBarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68069FE21AF33C2F000351AD /* Debug */,
+				68069FE31AF33C2F000351AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68069FB91AF33C2F000351AD /* Project object */;
+}
